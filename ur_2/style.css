@@ -1,0 +1,92 @@
+body {
+    background-image: linear-gradient(to left, #c7d0b5, #c7b5da);
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    align-content: center;
+}
+
+p {
+    font-style: italic;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.h2 {
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.link {
+    color: rgb(225, 77, 28);
+    font-style: arial;
+    font-size: 19px;
+    line-height: 20px;
+}
+
+#title {
+    color: rgb(231, 135, 10)
+}
+
+.title {
+    font-weight: bold;
+}
+
+.text {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #201f23;
+}
+
+#mainLink {
+    color: red
+}
+
+.subtitle {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+ul {
+    background-color: #ba97de;
+    border-radius: 20px 20px 40px 40px;
+}
+
+.picture {
+    border-radius: 20px 50px 10px 80px;
+    width: 400px;
+}
+
+.inputForm {
+    width: 200px;
+    height: 35px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.battonForm {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 15px;
+}
