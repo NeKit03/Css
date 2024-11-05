@@ -46,8 +46,7 @@ button {
 .navigation {
     display: flex;
     justify-content: space-between;
-    max-width: 600px;
-    gap: 40px;
+    width: 533px;
 }
 
 .navigation a {
@@ -95,7 +94,6 @@ button {
 
 .mainContent__leftSide-btnList {
     display: flex;
-    gap: 72px;
     align-items: center;
 }
 
