@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #fff;
+    color: #000000;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1,
+h2,
+p,
+a,
+button {
+    color: #000000;
+    font-family: "Gilroy-Bold";
+    font-weight: 466px;
+}
+
+.container {
+    max-width: 1332px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 40px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    gap: 40px;
+}
+
+.navigation a {
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+}
+
+.Home_item {
+    font-family: "Gilroy-SemiBold";
+    color: #f25822;
+}
+
+.vector_header {
+    margin-left: -30px;
+}
+
+.main {
+    margin-bottom: 160px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContent__lefSide {
+    max-width: 522px;
+}
+
+.mainContent__lefSide h1 {
+    font-size: 60px;
+    line-height: 70.31px;
+    margin-bottom: 20px;
+}
+
+.mainContent__lefSide p {
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23.44px;
+    opacity: 0.7;
+    margin-bottom: 50px;
+    max-width: 466px;
+    color: #888888;
+}
+
+.mainContent__leftSide-btnList {
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
+
+.mainContent__leftSide-btnList button {
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: #F25822;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.mainContent__leftSide-btnList {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.btn {
+    color: #aaa;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.footer {
+    margin-bottom: 90px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
