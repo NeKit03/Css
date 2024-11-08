@@ -225,6 +225,8 @@ button {
     flex-direction: column;
     justify-content: flex-start;
     box-shadow: 10px 25px 50px 6px rgba(0, 0, 0, 0.03);
+    padding-left: 30px;
+    padding-top: 40px;
 }
 
 .card img {
