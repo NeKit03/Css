@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('./gilroy-bold-cufonfonts-webfont/style.css');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #fff;
+    color: #000000;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1,
+h2,
+p,
+a,
+button {
+    color: #000000;
+    font-family: "Gilroy-Bold";
+    font-weight: 466px;
+}
+
+.container {
+    max-width: 1332px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 40px 0;
+    margin-bottom: 80px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 533px;
+}
+
+.navigation a {
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+}
+
+.Home_item {
+    font-family: "Gilroy-SemiBold";
+    color: #f25822;
+}
+
+.vector_header {
+    margin-left: -30px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+
+.mainContent__lefSide {
+    max-width: 522px;
+}
+
+.mainContent__lefSide h1 {
+    font-size: 60px;
+    line-height: 70.31px;
+    margin-bottom: 20px;
+}
+
+.mainContent__lefSide p {
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23.44px;
+    opacity: 0.7;
+    margin-bottom: 50px;
+    max-width: 466px;
+    color: #888888;
+}
+
+.mainContent__leftSide-btnList {
+    display: flex;
+    align-items: center;
+}
+
+.mainContent__leftSide-btnList button {
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: #F25822;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.mainContent__leftSide-btnList {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.btn {
+    color: #aaa;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+
+.section2 {
+    margin-bottom: 160px;
+}
+
+.section1Content {
+    display: flex;
+    align-items: center;
+}
+
+.section1Content_lefSide {
+    max-width: 522px;
+    margin-right: 20px;
+}
+
+.section1Content_lefSide p {
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 23.44px;
+    opacity: 0.7;
+    margin-bottom: 50px;
+    max-width: 466px;
+    color: #888888;
+}
+
+.section1Content_lefSide h2 {
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+}
+
+.section1Content_lefSide-btnList button {
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: #F25822;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.batton_orang {
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: #F25822;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.cardList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    margin-bottom: 160px;
+}
+
+.card {
+    gap: 30px;
+    padding: 35px;
+    background: #FFF;
+}
+
+.card a {
+    font-size: 11px;
+    line-height: 16.5px;
+    font-size: Gilroy-Bold;
+}
+
+.card h2 {
+    font-size: 24px;
+    font-family: Gilroy-Bold;
+}
+
+.cardList p {
+    font-size: 15px;
+    line-height: 22.5px;
+    font-family: Gilroy-Regular;
+}
+
+.read_more {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    align-items: flex-start;
+    border-radius: 30px;
+    font-size: Gilroy-Bold;
+    font-size: 11px;
+    line-height: 16.5px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 10px 25px 50px 6px rgba(0, 0, 0, 0.03);
+}
+
+.card img {
+    width: 20%;
+}
+
+.card_center {
+    box-shadow: 10px 25px 50px 6px rgba(0, 0, 0, 0.05);
+}
+
+.section2Content {
+    /*align-items: center;
+    text-align: center;*/
+}
+
+.section2Title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.section2Title h1 {
+    font-size: 45px;
+    line-height: 52.73px;
+}
+
+.section2Title p {
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    width: 682px;
+}
+
+.cardListSection2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 570px 570px 570px;
+    gap: 60px;
+}
+
+.table_element {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 10px 25px 50px 6px rgba(0, 0, 0, 0.03);
+}
+
+.section2_btn {
+    border-style: hidden;
+    display: flex;
+    gap: 5px;
+    font-size: 13px;
+    align-items: center;
+}
+
+.table_element p {
+    color: #AAAAAA;
+    font-size: 15px;
+    line-height: 22.5px;
+    font-family: "Gilroy-Regular";
+}
+
+.section2_btn img {
+    width: 6px;
+}
+
+.table_element_center {
+    box-shadow: 10px 25px 50px 6px rgba(0, 0, 0, 0.05);
+}
