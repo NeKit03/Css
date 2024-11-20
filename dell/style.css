@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("./Lato/lato.css");
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+h1,
+h2,
+p,
+a,
+button {
+    color: rgb(0, 0, 0);
+    font-family: Lato;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    margin-bottom: 65px;
+    margin: 0 auto;
+}
+
+.header_container {
+    display: flex;
+    justify-content: center;
+}
+
+.headerContent {
+    width: 1600px;
+}
+
+.navigation {
+    display: flex;
+    gap: 859px;
+    height: 75px;
+    background-color: rgb(34, 34, 34);
+}
+
+.navigation_left {
+    display: flex;
+    align-items: center;
+    padding-left: 230px;
+    gap: 41px;
+}
+
+.navigation_right {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.vertical_stick {
+    background-color: rgb(241, 109, 127);
+    width: 12px;
+    height: 92px;
+}
+
+.headerContent_down {
+    display: grid;
+    background-color: rgb(241, 228, 230);
+    place-items: center;
+}
+
+.headerContent_down_left {
+    padding-left: 230px;
+}
+
+.headerContent_down_right {
+    display: flex;
+    padding-left: 92px;
+    width: 600px;
+    gap: 16px;
+}
+
+.headerContent_down_right_content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.headerContent_down_right p {
+    display: inline-block;
+    font-size: 32px;
+    color: rgb(34, 34, 34);
+    font-family: Lato-bold, sans-serif;
+}
+
+.headerContent_down_right .fashion {
+    color: rgb(241, 109, 127);
+}
+
+.headerContent_down_right .brand {
+    font-size: 48px;
+    color: rgb(34, 34, 34);
+    font-family: Lato-black, sans-serif;
+    font-weight: 700px;
+}
+
+.cardList {
+    display: grid;
+    max-width: 1140px;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    /*margin: 95 auto;*/
+    padding-top: 65px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+}
+
+.big_card {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.title_card {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+}
+
+.title_card h2 {
+    color: rgb(241, 109, 127);
+}
+
+.title_card p {
+    color: rgb(255, 255, 255);
+}
+
+.section1_featured_items_title {
+    text-align: center;
+}
+
+.cardList2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.section1_featured_items_title h1 {
+    color: rgb(34, 34, 34);
+    font-size: 40px;
+    margin-bottom: 6px;
+}
+
+.section1_featured_items_title p {
+    font-size: 14px;
+    color: rgb(159, 159, 159);
+    margin-bottom: 48px;
+    gap: 30px;
+}
+
+.cardContent h2 {
+    padding-top: 24px;
+    font-size: 13px;
+    font-family: Lato-regular, sans-serif;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.cardContent p {
+    color: rgb(93, 93, 93);
+    font-family: Lato-light, sans-serif;
+}
+
+.cardContent h3 {
+    color: rgb(241, 109, 127);
+}
+
+.btn {
+    padding-top: 48px;
+    padding-bottom: 60px;
+}
+
+.btn button {
+    width: 212px;
+    height: 48px;
+    color: rgb(242, 99, 118);
+    cursor: pointer;
+    border: 1px solid #FF6A6A;
+}
+
+.feature {
+    background: #222224;
+    padding: 104px 230px;
+}
+
+.feature_container {
+    display: flex;
+    justify-content: center;
+}
+
+.cardList3 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    text-align: center;
+}
+
+.card3 {
+    height: 134px;
+    width: 360px;
+}
+
+.cards3 h1 {
+    text-align: center;
+    color: #FBFBFB;
+    margin-bottom: 16.01px;
+    font-family: Lato;
+    font-size: 19.96px;
+    font-weight: 400;
+    line-height: 23.95px;
+}
+
+.cards3 p {
+    text-align: center;
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 13.97px;
+    font-weight: 400;
+    line-height: 16.77px;
+    width: 360px;
+}
+
+.card3 img {
+    margin: auto;
+    margin-bottom: 19.07px;
+}
+
+@media(max-width:1140px) and (min-width:848px) {
+    .container {
+        max-width: 767px;
+    }
+    .mainContent {
+        flex-direction: column;
+        gap: 128px;
+        align-items: center;
+    }
+    .headerContent {
+        width: 767px;
+    }
+    .navigation {
+        display: flex;
+        gap: 424px;
+        height: 75px;
+    }
+    .navigation_left {
+        display: flex;
+        align-items: center;
+        padding-left: 32px;
+        gap: 41px;
+    }
+    .navigation_right {
+        display: flex;
+        align-items: center;
+        gap: 33px;
+    }
+    .headerContent_down {
+        display: flex;
+        align-items: center;
+    }
+    .headerContent_down_right .brand {
+        font-size: 48px;
+        font-weight: 700px;
+    }
+    .headerContent_down_left {
+        max-width: 311px;
+        max-height: 368px;
+        padding-left: 30px;
+        width: auto;
+    }
+    .headerContent_down_left img {
+        max-width: 386px;
+        max-height: 368px;
+    }
+    .headerContent_down_right {
+        display: flex;
+        padding-left: 39px;
+        width: 311;
+        gap: 16px;
+    }
+    .cardList {
+        display: grid;
+        max-width: 736px;
+        gap: 19.9px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        /*margin: 95 auto;*/
+        padding-top: 65px;
+    }
+    .big_card {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .cardList2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 16px;
+    }
+    .btn button {
+        width: 212px;
+        height: 48px;
+    }
+}
+
+@media (max-width:847px) {
+    .container {
+        max-width: 375px;
+    }
+    .mainContent {
+        flex-direction: column;
+        gap: 128px;
+        align-items: center;
+    }
+    .headerContent {
+        width: 375px;
+    }
+    .navigation {
+        display: flex;
+        gap: 190px;
+        height: 75px;
+    }
+    .navigation_left {
+        display: flex;
+        align-items: center;
+        padding-left: 32px;
+        gap: 41px;
+    }
+    .navigation_right {
+        display: flex;
+        align-items: center;
+        padding-right: 26px;
+    }
+    .headerContent_down_right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation_right_logo2 {
+        display: none;
+    }
+    .navigation_right_logo3 {
+        display: none;
+    }
+    .headerContent_down {
+        display: flex;
+        align-items: center;
+    }
+    .headerContent_down_right .brand {
+        font-size: 48px;
+        font-weight: 700px;
+    }
+    .headerContent_down_left {
+        display: none;
+    }
+    .headerContent_down_right {
+        display: flex;
+        padding-left: 39px;
+        width: 375px;
+        height: 363px;
+        gap: 16px;
+    }
+    .cardList {
+        display: flex;
+        max-width: 343px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        padding-top: 64px;
+        gap: 32px;
+        padding-bottom: 64px;
+        align-items: center;
+    }
+    .big_card {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-position: center;
+        background-size: cover;
+    }
+    .cardList2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 16px;
+        padding-top: 64px;
+    }
+    .btn button {
+        width: 212px;
+        height: 48px;
+    }
+}
